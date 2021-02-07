@@ -1,51 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&display=swap');
 
-.youtube-link {
-  overflow:hidden;
-  background-color: #A9D9D9;
-}
-.header {
-  text-align: center;
-  display:block;
-}
-.video-intro {
- background-color: #F28E13;
- overflow:hidden;
- height: 1000px;
- position: relative;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
 }
 
-div.video-link {
-  position: absolute;
-  bottom: 20px;
-  right: 350px;
+li, a, button {
+  font-family: Futura, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
 }
 
-div.left-column {
-  width: 240px;
-  height: 1000px;
-  float: left;
-  background-color: pink;
+h1 {
+  font-family: Futura, sans-serif;
+  font-size: 24px;
+  text-decoration: none;
 }
 
-div.right-column {
-  width: 240px;
-  height: 1000px;
-  float: right;
-  background-color: pink;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.header-border {
+    border-bottom-style: solid;
 }
 
-div.video {
-  position: absolute;
-  top: 100px;
-  right: 220px;
+.logo {
+  cursor: pointer;
 }
 
-.return-link {
-  float: left;
-  display: block;
-  text-align: center;
+.nav_links {
+  list-style: none;
 }
 
-body {
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: #0088a9;
+}
+.nav_links li a:visited {
+  text-decoration: none;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+
+.logo-image {
+  height: 50px;
+}
+
+.video-overlay {
+  position: relative;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-style: solid;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.video-background {
+  width: 100%;
+  height: auto;
   margin: 0px;
+  padding: 0px;
+}
+
+.video {
+  font-family: Futura, sans-serif;
+  position: absolute;
+  top: 110px;
+  left: 420px;
+  border: solid;
+  border-width: 5px;
+}
+
+.quotation {
+ display: block;
+ background-color: #EAEAEA;
+ height: 200px;
+ font-family: 'Didact Gothic', sans-serif;
+ font-size: 21px;
+ padding: 100px 0px;
+ text-align: center;
+}
+
+.main {
+  padding: 20px;
+  font-family: Futura, sans-serif;
+  text-align: center;
+}
+
+.main-title {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+.main-title-recipies {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-size: 35px;
+}
+
+.paragraph {
+  position: relative;
+  width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-paragraph {
+ text-align: center;
+ padding: 30px;
+ line-height: 1.6;
+ padding-bottom: 200px;
+}
+
+.footer {
+ width: 100%;
+ background-color: #B397A5;
+ margin: 0;
+ left: 0;
+ bottom: 0;
+ padding: 10px;
+ text-align: center;
+ font-family: 'Arima Madurai', sans-serif;
+}
+.footer-text {
+  text-align: right;
+  background-color: #B397A5;
+}
+a.plain-link:link {
+ color: #000000;
+ text-decoration: none;
+}
+a.plain-link:visited {
+ color: #000000;
+ text-decoration: none;
+}
+.space {
+  padding: 100px;
+}
+.space-recipies {
+  padding: 66px;
+}
+.kettle {
+  font-family: Futura, sans-serif;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 250px;
+  border-radius: 50%;
+}
+.tea {
+  font-family: Futura, sans-serif;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 600px;
+  border-radius: 50%;
 }
