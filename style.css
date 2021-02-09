@@ -70,7 +70,7 @@ button:hover {
 }
 
 .general-background {
-  background-image: url("/images/video-background.jpg");
+  background-image: url("/Images/video-background.jpg");
   background-size: cover;
   position: relative;
   height: 600px;
