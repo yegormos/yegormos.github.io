@@ -5,7 +5,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
 }
 
 li, a, button {
@@ -26,9 +25,10 @@ header {
   align-items: center;
   padding: 30px 10%;
 }
+/*
 .header-border {
     border-bottom-style: solid;
-}
+} */
 
 .logo {
   cursor: pointer;
@@ -45,6 +45,7 @@ header {
 
 .nav_links li a {
   transition: all 0.3s ease 0s;
+  color: black;
 }
 
 .nav_links li a:hover {
@@ -72,29 +73,35 @@ button:hover {
 }
 
 .video-overlay {
+  background-image: url("/images/video-background.jpg");
+/*  background-repeat: no-repeat; */
+  background-size: cover;
   position: relative;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom-style: solid;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
+  height: 600px;
 }
 
 .video-background {
-  width: 100%;
-  height: auto;
-  margin: 0px;
-  padding: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0);
+}
+.video-background-2 {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0);
+  width: 600px;
 }
 
 .video {
   font-family: Futura, sans-serif;
-  position: absolute;
-  top: 110px;
-  left: 420px;
   border: solid;
   border-width: 5px;
+  height:auto;
+  display: block;
 }
 
 .quotation {
@@ -105,6 +112,7 @@ button:hover {
  font-size: 21px;
  padding: 100px 0px;
  text-align: center;
+ margin: 0;
 }
 
 .main {
@@ -170,17 +178,59 @@ a.plain-link:visited {
 }
 .kettle {
   font-family: Futura, sans-serif;
-  height: 200px;
+  border-radius: 50%;
+  border: solid;
+  display: block;
+  width: 100%;
+ /*
   position: absolute;
   top: 80px;
   left: 250px;
-  border-radius: 50%;
+  */
 }
 .tea {
   font-family: Futura, sans-serif;
   height: 200px;
+  border-radius: 50%;
+  border: solid;
+  /*
   position: absolute;
   top: 80px;
   left: 600px;
+  */
+}
+.beverage {
+  font-family: Futura, sans-serif;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
+  border: solid;
+  display: block;
+}
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Futura, sans-serif;
+  color: #ffffff;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+.dog {
+  position:relative;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.image-title {
+  font-weight: bold;
 }
