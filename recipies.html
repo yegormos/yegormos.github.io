@@ -6,83 +6,81 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tea Moves</title>
   <link rel="stylesheet" href="style.css">
+    <!--   Linking the style sheet to the html document with <link> -->
 </head>
 <body>
+
   <header>
     <a class="plain-link" href="index.html">
-    <h1 class="logo">Tea
-    <img class="logo-image" src="/Images/logo.png" alt="logo">
-    Moves
-    </h1>
+      <h1 class="logo">
+        Tea
+        <img class="logo-image" src="images/logo.png" alt="logo">
+        Moves
+      </h1>
     </a>
+
     <nav>
       <ul class="nav_links">
-        <li><a href="recipies.html">Recipies</a></li>
+        <li><a href="recipies.html">Recipe</a></li>
         <li><a href="we_challenge_you.html">We Challenge You</a></li>
       </ul>
     </nav>
+
     <a class="cta" href="contact.html"><button>Contact</button></a>
+
   </header>
+    <!--Making the header navigation bar that allows for a logo link, 2 seperate links and a button link that will link to other pages on the website -->
+  <div class="general-background">
+    <div class="image-outer-wrap">
 
-  <div class="video-overlay">
-
-
-    <div class="dog">
-      <img class="kettle" src="/Images/kettle.jpg">
-      <div class="image-overlay" id="kettle-image">
-        <div class="image-title">Plenty of Hot Water
+      <div class="image-inner-wrap">
+        <img class="image-wrap" src="images/kettle.jpg">
+        <div class="image-overlay" id="kettle-image">
+          <div class="image-title">
+            Plenty of Hot Water
+          </div>
         </div>
+      </div>
+
+      <div class="image-inner-wrap">
+        <img class="image-wrap" src="images/tea.jpg">
+        <div class="image-overlay" id="tea-image">
+            <div class="image-title">
+              Premium Tea
+            </div>
+        </div>
+      </div>
+
+      <div class="image-inner-wrap">
+        <img class="image-wrap" src="images/honey.jpg">
+        <div class="image-overlay" id="honey-image">
+            <div class="image-title">
+              The Sweetest Honey
+            </div>
+        </div>
+      </div>
+
+      <div class="image-inner-wrap">
+          <img class="image-wrap-beverage" src="images/beverage.jpg">
+          <div class="image-overlay" id="beverage-image">
+            <div class="image-title">
+              Any Extra Beverage
+            </div>
+          </div>
       </div>
     </div>
-
-    <div class="dog">
-      <img class="kettle" src="/Images/tea.jpg">
-      <div class="image-overlay" id="tea-image">
-          <div class="image-title">Premium Tea
-          </div>
-        </div>
-      </div>
-
-      <div class="dog">
-        <img class="kettle" src="/Images/honey.jpg">
-        <div class="image-overlay" id="honey-image">
-            <div class="image-title">The Sweetest Honey
-            </div>
-          </div>
-        </div>
-
-        <div class="dog">
-          <img class="beverage" src="/Images/beverage.jpg">
-          <div class="image-overlay" id="beverage-image">
-              <div class="image-title">Any Extra Beverage
-              </div>
-            </div>
-          </div>
-
   </div>
-
-
-
-
-<!--
-  <div class="video-overlay">
-    <div class="video-background-2">
- <img class="video-background" src="images/video-background.jpg">
-    <img class="kettle" src="images/kettle.jpg">
-    <img class="tea" src="images/tea.png">
-    <img class="tea" src="/images/honey.png">
-    <img class="beverage" src="/images/beverage.png">
-  </div>
-  </div>
--->
+    <!-- Creating a combination of wraps to be able to display the images of the products that are included in the recipe that is in the video. Image overlay is connected with JS to be displayed when the mouse hovers over the images. -->
   <div class="space">
-    Recipies
   </div>
-
+   <!-- A quick div to create some space between the images and the footer as the background image can't cover the whole page -->
   <div class="footer">
-    <p class="footer-text">&#169;&nbsp;&nbsp;Yegor Mostovoy</p>
+    <p class="footer-text">
+      &#169;&nbsp;&nbsp;Yegor Mostovoy
+    </p>
   </div>
+    <!-- footer located at the bottom of each document providing the name of the creator -->
   <script src="/Scripts/script.js"></script>
-
+    <!-- linking the JS file to the html document -->
 </body>
 </html>

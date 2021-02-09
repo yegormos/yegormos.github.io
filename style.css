@@ -25,10 +25,6 @@ header {
   align-items: center;
   padding: 30px 10%;
 }
-/*
-.header-border {
-    border-bottom-style: solid;
-} */
 
 .logo {
   cursor: pointer;
@@ -62,6 +58,7 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  outline:none;
 }
 
 button:hover {
@@ -72,12 +69,12 @@ button:hover {
   height: 50px;
 }
 
-.video-overlay {
-  background-image: url("/Images/video-background.jpg");
-/*  background-repeat: no-repeat; */
+.general-background {
+  background-image: url("/images/video-background.jpg");
   background-size: cover;
   position: relative;
   height: 600px;
+  font-family: Futura, sans-serif;
 }
 
 .video-background {
@@ -85,15 +82,6 @@ button:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(0,0,0,0);
-}
-.video-background-2 {
-  position: absolute;
-  top: 50%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-  background: rgba(0,0,0,0);
-  width: 600px;
 }
 
 .video {
@@ -111,7 +99,7 @@ button:hover {
  height: 200px;
  font-family: 'Didact Gothic', sans-serif;
  font-size: 21px;
- padding: 100px 0px;
+ padding-top: 90px;
  text-align: center;
  margin: 0;
 }
@@ -126,9 +114,12 @@ button:hover {
   padding-top: 200px;
   padding-bottom: 30px;
   font-size: 50px;
+  position: relative;
+  text-align: center;
+
 }
 
-.main-title-recipies {
+.main-title-contact {
   padding-top: 80px;
   padding-bottom: 30px;
   font-size: 35px;
@@ -174,33 +165,18 @@ a.plain-link:visited {
 .space {
   padding: 100px;
 }
-.space-recipies {
-  padding: 66px;
+.space-contact {
+  padding: 91px;
 }
-.kettle {
+.image-wrap {
   font-family: Futura, sans-serif;
   border-radius: 50%;
   border: solid;
   display: block;
   width: 100%;
- /*
-  position: absolute;
-  top: 80px;
-  left: 250px;
-  */
 }
-.tea {
-  font-family: Futura, sans-serif;
-  height: 200px;
-  border-radius: 50%;
-  border: solid;
-  /*
-  position: absolute;
-  top: 80px;
-  left: 600px;
-  */
-}
-.beverage {
+
+.image-wrap-beverage {
   font-family: Futura, sans-serif;
   height: 200px;
   width: 200px;
@@ -225,7 +201,7 @@ a.plain-link:visited {
   opacity: 0;
   transition: all 0.3s ease 0s;
 }
-.dog {
+.image-inner-wrap {
   position:relative;
   width: 200px;
   border-radius: 50%;
@@ -234,4 +210,12 @@ a.plain-link:visited {
 }
 .image-title {
   font-weight: bold;
+}
+.image-outer-wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 500px;
 }
