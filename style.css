@@ -73,7 +73,7 @@ button:hover {
 }
 
 .video-overlay {
-  background-image: url("/images/video-background.jpg");
+  background-image: url("/Images/video-background.jpg");
 /*  background-repeat: no-repeat; */
   background-size: cover;
   position: relative;
