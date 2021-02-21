@@ -3,3 +3,6 @@
   margin: auto;
   text-align: center
 }
+#Apple {
+  visibility: hidden;
+}
