@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+  transition: 0.5s linear all;
+}
+
+.interactable {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 40%;
+  left: 40%;
+  border: 2px solid green;
+}
+
+.sometext {
+  visibility: hidden;
+  color: red;
+}
