@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+}
+.topnav {
+  background-color: #232333;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+/* Change the color of links on hover
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+*/
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2D8CFF;
+  color: white;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border:2px solid black;
+}
+.noorastory {
+  display: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border:2px solid black;
+}
+.yegorstory {
+  display: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border:2px solid black;
+}
+.alistory {
+  display: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border:2px solid black;
+}
+.nooraconc {
+  display: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border:2px solid black;
+}
+.flex-container2 {
+  display: none;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border:2px solid black;
+}
+.flex-vid {
+  width: 66%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  /* line-height: 150px; */
+  border:1px solid black;
+}
+.noorastoryvid {
+  width: 66%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  /* line-height: 150px; */
+  border:1px solid black;
+}
+.yegorstoryvid {
+  width: 66%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  /* line-height: 150px; */
+  border:1px solid black;
+}
+.alistoryvid {
+  width: 66%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  /* line-height: 150px; */
+  border:1px solid black;
+}
+.nooraconcvid {
+  width: 66%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  /* line-height: 150px; */
+  border:1px solid black;
+}
+.flex-vid2 {
+  width: 33%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  /* line-height: 150px; */
+  filter: gray;
+  -webkit-filter: grayscale(100%);
+  transition: 2s;
+}
+.flex-vid2:hover {
+  width: 50%;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+.mydivs {
+            margin: auto;
+}
+
+
+.mydivs>div {
+
+            width:auto;
+            height:80%;
+
+
+
+            overflow-y:auto;
+            padding:1em;
+            margin: 2% 5% 0% 5%;
+
+            box-sizing:border-box;
+            -moz-box-sizing:border-box;
+}
+
+.btn{
+  display: none;
+  justify-content: center;
+}
+.next {
+
+    background-image: url(joinmeeting.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* put the height and width of your image here */
+    height: 32px;
+    width: 178px;
+    margin: 30px;
+}
+body {
+  background-color: #BABACC;
+}
