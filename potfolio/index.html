@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- For responsive navbar -->
+</head>
+<body>
+<!--
+  <ul>
+  <li><a href="#videoproject">The Pandemic Express</a></li>
+  <li><a href="#soundproject">Life</a></li>
+  <li><a href="#comicproject">out-of-date</a></li>
+  <li><a href="#teaproject">Tea Moves</a></li>
+  <li class="yegormos"><a href="#homepage">Yegor.Mos</a></li>
+</ul>
+-->
+<div class="topnav" id="myTopnav">
+  <a class="active">Yegor.Mos</a>
+  <a href="#videoproject">The Pandemic Express</a>
+  <a href="#soundproject">Life</a>
+  <a href="#comicproject">out-of-date</a>
+  <a href="#teaproject">Tea Moves</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="homepage" id="homepage">
+<div class="homepage1">
+<h1>
+Welcome to Yegor Mostovoy's portfolio
+</h1>
+</div>
+
+<div class="homepage2">
+<p>
+Here you can find all the different projects I worked on during the Spring 2021 Comm Lab course. A lot of time, effort and ponder has went into these websites and their content. So, please, enjoy my best work!
+</p>
+</div>
+</div>
+
+<div class="projectintro">
+  <div class="projectintro1">
+    <h2>
+      Here are the projects I worked on in chronological order
+    </h2>
+  </div>
+</div>
+
+<div class="teaproject" id="teaproject">
+  <div class="buttontitle" id="buttontitle">
+    <h2 class="dogeman">Project #1: Tea Moves</h2>
+  </div>
+
+  <div class="projectdesc" id="projectdesc">
+    <p class="projectdesc1">First time ever using HTML, CSS and JS!  </p>
+    <p class="projectdesc2"> The idea behind this website is to be a show space for the 30-minute movie that we made in groups at the beginning of the course. The subject of our particular movie was "Tea". We tried to showcase how each of us makes our special cup of tea. Then, we individually created our websites to present our movies. <br><br> <a class="documentation" href="https://github.com/yegormos/yegormos.github.io/blob/main/README.md" target="_blank"> Documentation </a> </p>
+  </div>
+
+  <div class="projectvid" id="projectvid">
+    <video class="dogeman2" control loop muted autoplay id="teaprojectvid">
+      <source src="teaproject1.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<div class="comicproject" id="comicproject" >
+  <div class="buttontitle" id="buttontitle2">
+    <h2 class="dogeman">Project #2: out-of-date</h2>
+  </div>
+
+  <div class="projectdesc" id="projectdesc">
+    <p class="projectdesc1">First time ever drawing on the computer!  </p>
+    <p class="projectdesc2"> The idea behind this website is to create a cohesive short comic that shares a story. We decided to base our comic around the idea of outdated technologies, trying to depict how those technologies would feel when abandoned. The main character going through the process of becoming outdated is the PS4, which is replaced by the PS5 and doomed to join the shelf of past-gen consoles. <br><br> <a class="documentation" href="https://github.com/eabahrami/comic/blob/main/README.md" target="_blank"> Documentation </a> </p>
+  </div>
+
+  <div class="projectvid" id="projectvid">
+    <video class="dogeman2" control loop muted autoplay id="comicprojectvid">
+      <source src="comicproject1.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<div class="soundproject" id="soundproject" >
+  <div class="buttontitle" id="buttontitle3">
+    <h2 class="dogeman">Project #3: Life</h2>
+  </div>
+
+  <div class="projectdesc" id="projectdesc">
+    <p class="projectdesc1">First time ever editing sound files!  </p>
+    <p class="projectdesc2"> The idea behind this website is to create an interactive story that focuses on the creation and manipulation of sound. We chose to create a short story that encompasses the common sounds a person would experience in their lives. We hoped to spark emotions attached to the memories that are related to the sounds. Most of the sound in the recordings was produced using our phone's microphone. <br><br> <a class="documentation" href="https://github.com/lucychoi1215/lucychoi1215.github.io/blob/main/soundproject/README.md" target="_blank"> Documentation </a> </p>
+  </div>
+
+  <div class="projectvid" id="projectvid">
+    <video class="dogeman2" control loop muted autoplay id="soundprojectvid">
+      <source src="soundproject.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<div class="videoproject" id="videoproject" >
+  <div class="buttontitle" id="buttontitle4">
+    <h2 class="dogeman">Project #4: The Pandemic Express</h2>
+  </div>
+
+  <div class="projectdesc" id="projectdesc">
+    <p class="projectdesc1">First time ever using Adobe Premiere Pro!  </p>
+    <p class="projectdesc2"> The idea behind this website is to create an interactive story using video recordings. The subject of our particular story was the different methods one could use to cope with the pandemic. However, the great interactive feature of our website is that it places the freedom of choosing that method into the viewer's hands. Creating a "choose your own adventure" style of movie experience.<br><br> <a class="documentation" href="https://github.com/eabahrami/video/blob/main/README.md" target="_blank"> Documentation </a> </p>
+  </div>
+
+  <div class="projectvid" id="projectvid">
+    <video class="dogeman2" control loop muted autoplay id="videoprojectvid">
+      <source src="videoproject.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
+<div class="footer">
+  @Yegor.Mos
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
